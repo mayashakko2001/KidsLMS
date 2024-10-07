@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('premissions', function (Blueprint $table) {
             $table->id();
+            $table ->string('title');
             $table->timestamps();
         });
     }
